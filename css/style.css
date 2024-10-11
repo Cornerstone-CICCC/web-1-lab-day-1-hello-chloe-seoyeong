@@ -2,3 +2,65 @@ main,
 footer {
   display: flex;
 }
+
+body {
+  width: 1350px;
+}
+
+.logo {
+  background-color: #121D51;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: #FFFF00;
+}
+
+.sidebar h3 {
+  color: #0000FF;
+}
+
+.content {
+  background-color: #01FFFF;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content h2 + p {
+  color: #fff;
+}
+
+#about + p {
+  background-color: #000;
+}
+
+#services + p {
+  background-color: #008001;
+}
+
+#services ~ ul li {
+  list-style-type: circle;
+}
+
+#services ~ ul li:nth-child(2n) {
+  color: #EC514D;
+}
+
+#contact ~ ul a {
+  color: #E62619;
+}
+
+footer div:first-child {
+  background-color: #FEC0CA;
+}
+
+footer div:nth-child(2) {
+  background-color: #A5292A;
+  color: #fff;
+}
+
+footer div:last-child {
+  background-color: #808080;
+}
